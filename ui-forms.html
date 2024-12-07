@@ -9,17 +9,21 @@
   <link rel="stylesheet" href="../../node_modules/simplebar/dist/simplebar.min.css">
   <link rel="stylesheet" href="css/styles.min.css" />
 </head>
-
+<style>
+  .card-body.p-4 {
+    background-color: #d1e3ff;
+}
+</style>
 <body>
   <!--  Body Wrapper -->
   <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">
     <!-- Sidebar Start -->
-    <aside class="left-sidebar">
+  <aside class="left-sidebar">
       <!-- Sidebar scroll-->
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="index.html" class="text-nowrap logo-img" style="font-size: 24px; font-family: 'Arial', sans-serif; font-weight: bold; color:  #000000; text-decoration: none;">
+          <a href="index.html" class="text-nowrap logo-img" style="font-size: 24px; font-family: 'Arial', sans-serif; font-weight: bold; color: #000000; text-decoration: none;">
             Forex LiveHub
         </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
@@ -31,7 +35,7 @@
           <ul id="sidebarnav">
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-6"></i>
-              <span class="hide-menu">Home</span>
+              <span class="hide-menu">Services</span>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="index.html" aria-expanded="false">
@@ -58,7 +62,7 @@
                 <span>
                   <iconify-icon icon="solar:danger-circle-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu"> Chart</span>
+                <span class="hide-menu">Chart</span>
               </a>
             </li>
             <li class="sidebar-item">
@@ -74,27 +78,27 @@
                 <span>
                   <iconify-icon icon="solar:file-text-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu">Contact</span>
+                <span class="hide-menu">Markets</span>
               </a>
             </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="ui-typography.html" aria-expanded="false">
+            <!-- <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
                 <span>
                   <iconify-icon icon="solar:text-field-focus-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
                 <span class="hide-menu">Login</span>
               </a>
-            </li>
+            </li> -->
             <!-- <li class="nav-small-cap">
               <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-6" class="fs-6"></iconify-icon>
               <span class="hide-menu">AUTH</span>
             </li> -->
-            <!-- <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="ui-typography.html" aria-expanded="false">
                 <span>
                   <iconify-icon icon="solar:login-3-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu">Login</span>
+                <span class="hide-menu">MetaTrader 5</span>
               </a>
             </li>
             <li class="sidebar-item">
@@ -102,29 +106,29 @@
                 <span>
                   <iconify-icon icon="solar:user-plus-rounded-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu">Register</span>
+                <span class="hide-menu">Tools</span>
               </a>
-            </li> -->
-            <!-- <li class="nav-small-cap">
+            </li>
+             <!-- <li class="nav-small-cap">
               <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4" class="fs-6"></iconify-icon>
               <span class="hide-menu">EXTRA</span>
-            </li> -->
-            <!-- <li class="sidebar-item">
+            </li> 
+            <li class="sidebar-item">
               <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
                 <span>
                   <iconify-icon icon="solar:sticker-smile-circle-2-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
                 <span class="hide-menu">Icons</span>
               </a>
-            </li>
+            </li> -->
             <li class="sidebar-item">
               <a class="sidebar-link" href="./sample-page.html" aria-expanded="false">
                 <span>
                   <iconify-icon icon="solar:planet-3-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu">Sample Page</span>
+                <span class="hide-menu">Symbol Overview</span>
               </a>
-            </li> -->
+            </li> 
           </ul>
           <div class="unlimited-access hide-menu bg-primary-subtle position-relative mb-7 mt-7 rounded-3"> 
             <div class="d-flex">
@@ -199,54 +203,192 @@
       <div class="container-fluid">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <h5 class="card-title fw-semibold mb-4">Forex trading
+              with low and stable spreads³</h5>
             <div class="card">
               <div class="card-body">
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                  </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-            <h5 class="card-title fw-semibold mb-4">Disabled forms</h5>
-            <div class="card mb-0">
-              <div class="card-body">
-                <form>
-                  <fieldset disabled>
-                    <legend>Disabled fieldset example</legend>
-                    <div class="mb-3">
-                      <label for="disabledTextInput" class="form-label">Disabled input</label>
-                      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                    </div>
-                    <div class="mb-3">
-                      <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                      <select id="disabledSelect" class="form-select">
-                        <option>Disabled select</option>
-                      </select>
-                    </div>
-                    <div class="mb-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                        <label class="form-check-label" for="disabledFieldsetCheck">
-                          Can't check this
-                        </label>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/for.avif" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-3.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Register</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Sign up with livehub and customize an evaluation plan that complements your unique trading approach, or choose one of our predefined programs.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>9,125
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>3
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Fast Payouts
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </fieldset>
-                </form>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/stock-market-.avif" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-2.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Evaluate</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Demonstrate your ability to effectively execute your strategy by managing risk and generating profit while adhering to the account trading objectives.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>4,150
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>38
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Custom Evaluation
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/finance-market-chart-background-earn-digital-profit_1017-44828.jpg" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-3.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Start Earning</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Receive access to the E8 Traders account, allowing you to start earning up to 100% of your profits through your strategy. Request first payout in just 8 days.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>914
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>12
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Trusted Partners
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </div>
+            </div>
+            <h5 class="card-title fw-semibold mb-4">Capitalize on currency pair price movements</h5>
+            <div class="card mb-0">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/for.avif" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-3.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Register</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Sign up with livehub and customize an evaluation plan that complements your unique trading approach, or choose one of our predefined programs.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>9,125
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>3
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Fast Payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/stock-market-.avif" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-2.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Evaluate</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Demonstrate your ability to effectively execute your strategy by managing risk and generating profit while adhering to the account trading objectives.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>4,150
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>38
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Custom Evaluation
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card overflow-hidden hover-img">
+                      <div class="position-relative">
+                        <a href="javascript:void(0)">
+                          <img src="images/blog/finance-market-chart-background-earn-digital-profit_1017-44828.jpg" class="card-img-top" alt="matdash-img">
+                        </a>
+                        <span class="badge text-bg-light text-dark fs-2 lh-sm mb-9 me-9 py-1 px-2 fw-semibold position-absolute bottom-0 end-0">2
+                          min Read</span>
+                        <img src="images/profile/user-3.jpg" alt="matdash-img" class="img-fluid rounded-circle position-absolute bottom-0 start-0 mb-n9 ms-9" width="40" height="40" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Georgeanna Ramero">
+                      </div>
+                      <div class="card-body p-4">
+                        <span class="badge text-bg-light fs-2 py-1 px-2 lh-sm  mt-3">Start Earning</span>
+                        <a class="d-block my-4 fs-5 text-dark fw-semibold link-primary" href="">
+                          Receive access to the E8 Traders account, allowing you to start earning up to 100% of your profits through your strategy. Request first payout in just 8 days.</a>
+                        <div class="d-flex align-items-center gap-4">
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-eye text-dark fs-5"></i>914
+                          </div>
+                          <div class="d-flex align-items-center gap-2">
+                            <i class="ti ti-message-2 text-dark fs-5"></i>12
+                          </div>
+                          <div class="d-flex align-items-center fs-2 ms-auto">
+                            <i class="ti ti-point text-dark"></i>Trusted Partners
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
               </div>
             </div>
           </div>
